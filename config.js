@@ -43,16 +43,16 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "put-your-session-id",
+SESSION_ID: process.env.SESSION_ID || "Manu-MD&yFVgnJ4a#t6N5abdKmSOh897Fs9hrKGjZHPQ2Evm7f_mh4jFxpy0",
 ALIVE_IMG : process.env.ALIVE_IMG || "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
 ALIVE_MSG : process.env.ALIVE_MSG || "Put your alive messege",
 MENU_IMG : process.env.MENU_IMG || "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
 MODE : process.env.MODE || "public",
-WELCOME : process.env.WELCOME || "false",
-ANTI_PHOTO: process.env.ANTI_PHOTO || "false",
-ANTI_STICKER: process.env.ANTI_STICKER || "false",
+WELCOME : process.env.WELCOME || "true",
+ANTI_PHOTO: process.env.ANTI_PHOTO || "true",
+ANTI_STICKER: process.env.ANTI_STICKER || "true",
 WARN_COUNT : process.env.WARN_COUNT || "3",
-AUTO_REACT : process.env.AUTO_REACT || "false",
+AUTO_REACT : process.env.AUTO_REACT || "true",
 TYPE : process.env.TYPE || "button",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 AUTO_BIO: process.env.AUTO_BIO || "true",
